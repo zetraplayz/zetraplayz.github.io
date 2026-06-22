@@ -19,12 +19,34 @@ const projects = [
   },
   {
     id: 'project-zetra',
-    title: 'Project Zetra Base',
+    title: 'Project Z-CORE & ZPLUS',
+    featured: true,
+    description: 'Master AI Ecosystem Orchestrator and Security Layer.',
+    longDescription: 'The foundational architecture for a long-term local-first cognitive ecosystem featuring modular AI agents, secure runtime execution (ZPLUS SECURE), and an intelligent orchestrator engine.',
+    tags: ['System Architecture', 'Local AI', 'Security', 'Next.js', 'FastAPI'],
+    role: 'System Architect & AI Engineer',
+    image: '/images/project-zetra.png',
+    links: { github: '#', live: '#' }
+  },
+  {
+    id: 'project-raven',
+    title: 'R.A.V.E.N',
     featured: false,
-    description: 'Modular cognitive ecosystem architecture.',
-    longDescription: 'The foundational architecture for a long-term local-first cognitive ecosystem featuring modular AI agents, secure runtime execution, and an intelligent orchestrator engine.',
-    tags: ['System Architecture', 'Local AI', 'Security', 'Next.js'],
-    role: 'System Architect',
+    description: 'Research and Analysis Vision Engine Network.',
+    longDescription: 'An advanced Knowledge Engine subsystem for Project Zetra. It integrates state-of-the-art vector databases (ChromaDB) and LLM orchestration (LiteLLM) to perform deep research, contextual retrieval, and analytical reasoning.',
+    tags: ['Vector Database', 'RAG', 'ChromaDB', 'LiteLLM', 'Knowledge Engine'],
+    role: 'AI Engineer',
+    image: '/images/project-zetra.png',
+    links: { github: '#', live: '#' }
+  },
+  {
+    id: 'project-lyra',
+    title: 'L.Y.R.A',
+    featured: false,
+    description: 'Linguistic Yield & Recognition Architecture.',
+    longDescription: 'The Memory and Voice Engine subsystem of Project Zetra. Responsible for maintaining persistent context, voice processing (edge_tts, speechrecognition), and dynamic conversational yield.',
+    tags: ['Speech Processing', 'Edge TTS', 'Memory Engine', 'NLP'],
+    role: 'AI Engineer',
     image: '/images/project-zetra.png',
     links: { github: '#', live: '#' }
   }

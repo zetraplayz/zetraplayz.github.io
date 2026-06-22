@@ -7,15 +7,21 @@ import styles from './page.module.css';
 const timeline = [
   {
     period: 'Current',
-    title: 'B.Tech Artificial Intelligence and Data Science',
-    org: 'Ramco Institute of Technology',
-    desc: 'Entering 2nd year. Focusing on programming foundations, AI/ML, local AI systems, and cybersecurity.'
+    title: 'Founder & AI Systems Architect',
+    org: 'Zetra & Co.',
+    desc: 'Designing Project Zetra ecosystem (Z-CORE, R.A.V.E.N, L.Y.R.A). Building modular AI frameworks, memory engines, and secure execution layers.'
   },
   {
     period: 'Current',
-    title: 'Founder & System Architect',
-    org: 'Zetra & Co.',
-    desc: 'Designing Project Zetra, a long-term local-first cognitive ecosystem. Building modular AI frameworks and secure execution layers.'
+    title: 'B.Tech Artificial Intelligence and Data Science',
+    org: 'Ramco Institute of Technology',
+    desc: 'Entering 2nd year. Focusing on advanced AI algorithms, programming foundations, and scalable system architectures.'
+  },
+  {
+    period: 'Workshops',
+    title: 'Technical Engagements',
+    org: 'Google Developer Groups',
+    desc: 'Active participant in GDG ecosystem. Participated in OpenMadurAI (Deploying Open Models on GKE) and Salem GDG Meet.'
   },
   {
     period: 'Project',

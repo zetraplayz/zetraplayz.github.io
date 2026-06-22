@@ -5,28 +5,28 @@ import styles from './page.module.css';
 
 const skillCategories = [
   {
-    title: "Software Development",
-    skills: ["Web Development", "Mobile Development", "Application Development"]
+    title: "Artificial Intelligence",
+    skills: ["AI Orchestration", "Local AI Systems", "RAG & Vector Search", "Speech Processing (Edge TTS)", "LLM Integration (LiteLLM)"]
   },
   {
-    title: "Artificial Intelligence",
-    skills: ["AI Development", "Local AI Systems", "LLM Concepts", "Prompt Engineering"]
+    title: "Programming Languages",
+    skills: ["Python", "Java", "JavaScript"]
+  },
+  {
+    title: "Database & Backend",
+    skills: ["ChromaDB", "MongoDB Vector Search", "FastAPI"]
+  },
+  {
+    title: "Software Development",
+    skills: ["Web Development (Next.js)", "Mobile Development", "System Architecture"]
   },
   {
     title: "Cybersecurity",
-    skills: ["Security Fundamentals", "Ethical Hacking Learning Path"]
+    skills: ["Security Fundamentals", "Ethical Hacking Learning Path", "ZPLUS Secure Runtime"]
   },
   {
-    title: "Project Management",
-    skills: ["Agile Methodology", "Planning", "Organization"]
-  },
-  {
-    title: "Communication",
-    skills: ["English", "Technical Communication"]
-  },
-  {
-    title: "Additional Skills",
-    skills: ["Typing", "Problem Solving", "System Thinking", "Architecture Design"]
+    title: "Project Management & Soft Skills",
+    skills: ["Agile Methodology", "Design Thinking", "Business Operations", "Technical Communication"]
   }
 ];
 
