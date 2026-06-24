@@ -27,15 +27,19 @@ export default function About() {
           >
             <h2 className="heading-3">Who I Am</h2>
             <p className="text-body">
-              My name is Mushi Dharun, known professionally as ZETRA. I am an AI Systems Architect, full-stack software engineer, and ethical hacker. My focus lies in constructing robust, future-ready technology systems.
+              My name is Mushi Dharun A (known professionally as ZETRA). I am an AI Systems Architect, full-stack software engineer, and ethical hacker. Currently pursuing my B.Tech in Artificial Intelligence and Data Science at Ramco Institute of Technology (Register No: 953625243068).
             </p>
             <p className="text-body">
               My work spans advanced AI infrastructure, security, automation, and creative worldbuilding. The identity &quot;ZETRA&quot; represents my builder mindset—a founder identity dedicated to long-term ecosystem design. I currently hold 26 verified professional certifications spanning Artificial Intelligence, Data Structures, Cloud Deployments, and Business Operations.
             </p>
 
-            <h2 className="heading-3">My Vision</h2>
+            <h2 className="heading-3">My Vision & Core Philosophy</h2>
             <p className="text-body">
+              <strong style={{ letterSpacing: '1px', color: 'var(--primary)', display: 'block', marginBottom: '10px' }}>LEARN. BUILD. IMPROVE. SHARE. GROW.</strong>
               I believe AI is not magic; it is a system. Intelligence emerges from memory, reasoning, planning, and precise execution. My overarching vision, <strong>Project Zetra</strong>, is a modular cognitive ecosystem featuring autonomous subsystems like R.A.V.E.N (Knowledge) and L.Y.R.A (Memory/Voice), all designed to be local-first, future-ready, and scalable.
+            </p>
+            <p className="text-body">
+              My active career objective is to build industry-level applications, contribute to open source, and continuously prepare for advanced roles in software engineering and AI architecture.
             </p>
           </motion.div>
 

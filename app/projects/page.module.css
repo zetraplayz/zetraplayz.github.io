@@ -199,3 +199,40 @@
   background-image: repeating-linear-gradient(45deg, var(--border-color) 0, var(--border-color) 1px, transparent 1px, transparent 10px);
   opacity: 0.5;
 }
+
+.roadmapGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.roadmapCard {
+  padding: 2rem;
+}
+
+.roadmapCard h3 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.roadmapCard ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.roadmapCard li {
+  color: var(--text-secondary);
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.roadmapCard li::before {
+  content: '>';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+}

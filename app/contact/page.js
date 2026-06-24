@@ -55,8 +55,11 @@ export default function Contact() {
           >
             <div className={styles.infoBlock}>
               <h3 className={styles.infoTitle}>Direct Transmission</h3>
-              <a href="mailto:zetraplayz472@gmail.com" className={`${styles.infoLink} interactive`}>
-                <Mail size={20} /> zetraplayz472@gmail.com
+              <a href="mailto:zetraofficial2023@gmail.com" className={`${styles.infoLink} interactive`}>
+                <Mail size={20} /> zetraofficial2023@gmail.com
+              </a>
+              <a href="mailto:953625243068@ritrjpm.ac.in" className={`${styles.infoLink} interactive`}>
+                <Mail size={20} /> 953625243068@ritrjpm.ac.in
               </a>
               <a href="tel:+919047010303" className={`${styles.infoLink} interactive`}>
                 <Phone size={20} /> +91 90470 10303
@@ -77,6 +80,28 @@ export default function Contact() {
                 <a href="https://www.instagram.com/_mr_zetra_/" target="_blank" rel="noopener noreferrer" className={`${styles.socialCard} interactive`}>
                   <Camera size={24} />
                   <span>Instagram</span>
+                </a>
+              </div>
+            </div>
+
+            <div className={styles.infoBlock}>
+              <h3 className={styles.infoTitle}>Learning & Community Profiles</h3>
+              <div className={styles.socialGrid}>
+                <a href="https://www.guvi.in/rracman077592" target="_blank" rel="noopener noreferrer" className={`${styles.socialCard} interactive`}>
+                  <Code size={24} />
+                  <span>HCL x GUVI</span>
+                </a>
+                <a href="https://www.skills.google/public_profiles/c02aa9bb-1e44-4096-adbc-f3bca40595fa" target="_blank" rel="noopener noreferrer" className={`${styles.socialCard} interactive`}>
+                  <Briefcase size={24} />
+                  <span>Google Skills</span>
+                </a>
+                <a href="https://me.developers.google.com/u/101303928363716291724" target="_blank" rel="noopener noreferrer" className={`${styles.socialCard} interactive`}>
+                  <Code size={24} />
+                  <span>Google Dev</span>
+                </a>
+                <a href="https://web.mybharat.gov.in/youth-public-profile/details/zetra_x" target="_blank" rel="noopener noreferrer" className={`${styles.socialCard} interactive`}>
+                  <Briefcase size={24} />
+                  <span>My Bharat</span>
                 </a>
               </div>
             </div>

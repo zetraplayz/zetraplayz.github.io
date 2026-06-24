@@ -124,6 +124,81 @@ export default function Projects() {
             </motion.div>
           ))}
         </div>
+
+        <motion.div 
+          className={styles.header}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          style={{ marginTop: '80px', marginBottom: '40px' }}
+        >
+          <h2 className="heading-2">Active Project <span className="text-gradient">Roadmap</span></h2>
+          <p className="text-lead">Tracking development progression from foundational to enterprise-grade.</p>
+        </motion.div>
+
+        <div className={styles.roadmapGrid}>
+          <motion.div 
+            className={`${styles.roadmapCard} glass-panel`}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+          >
+            <h3>Beginner Phase</h3>
+            <ul>
+              <li>Scientific Calculator</li>
+              <li>Expense Tracker</li>
+              <li>Student Management System</li>
+            </ul>
+          </motion.div>
+          <motion.div 
+            className={`${styles.roadmapCard} glass-panel`}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <h3>Intermediate Phase</h3>
+            <ul>
+              <li>Attendance Management System</li>
+              <li>Library Management System</li>
+              <li>Portfolio Website</li>
+              <li>College Website Portal</li>
+            </ul>
+          </motion.div>
+          <motion.div 
+            className={`${styles.roadmapCard} glass-panel`}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+          >
+            <h3>Advanced Phase</h3>
+            <ul>
+              <li>College ERP Portal</li>
+              <li>Hand Tracking Controller</li>
+              <li>Eye Tracking Controller</li>
+              <li>Age Detection System</li>
+              <li>Face Recognition Attendance System</li>
+            </ul>
+          </motion.div>
+          <motion.div 
+            className={`${styles.roadmapCard} glass-panel`}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+          >
+            <h3>Placement-Level</h3>
+            <ul>
+              <li>AI Resume Analyzer</li>
+              <li>AI Interview Assistant</li>
+              <li>Smart Campus Management System</li>
+              <li>Real-Time Surveillance System</li>
+            </ul>
+          </motion.div>
+        </div>
       </div>
     </div>
   );
